@@ -160,7 +160,7 @@ def Record(Result):
 
     Wins_Losses = [-1,-1]
 
-    f1 = open(r"insert path to losses.txt here")
+    f1 = open(r"insert path to wins.txt here")
     f2 = open(r"insert path to losses.txt here")
 
     wins = f1.read()

@@ -160,8 +160,8 @@ def Record(Result):
 
     Wins_Losses = [-1,-1]
 
-    f1 = open(r"C:\Users\Nick\Documents\Gen10\Visual-Studio\Files\english-words-master\wins.txt")
-    f2 = open(r"C:\Users\Nick\Documents\Gen10\Visual-Studio\Files\english-words-master\losses.txt")
+    f1 = open(r"insert path to losses.txt here")
+    f2 = open(r"insert path to losses.txt here")
 
     wins = f1.read()
 
@@ -182,7 +182,7 @@ def Record(Result):
 
         print(f"You are victorious. Your record is now {Wins_Losses[0]} wins and {Wins_Losses[1]} losses\n\n")
 
-        f1_2 = open(r"C:\Users\Nick\Documents\Gen10\Visual-Studio\Files\english-words-master\wins.txt", "w")
+        f1_2 = open(r"insert path to wins.txt here", "w")
 
         f1_2.write(f"{Wins_Losses[0]}")
 
@@ -196,7 +196,7 @@ def Record(Result):
 
         print(f"You have failed. Your record is now {Wins_Losses[0]} wins and {Wins_Losses[1]} losses\n\n")
 
-        f2_2 = open(r"C:\Users\Nick\Documents\Gen10\Visual-Studio\Files\english-words-master\losses.txt", "w")
+        f2_2 = open(r"insert path to losses.txt here", "w")
 
         f2_2.write(f"{Wins_Losses[1]}")
 
@@ -213,7 +213,7 @@ Alphabet_As_Set = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","
 Alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 #read only
 
-The_Dictionary = Word_Import(r"C:\Users\Nick\Documents\Gen10\Visual-Studio\Files\english-words-master\words_dictionary.json")
+The_Dictionary = Word_Import(r"insert path to dictionary here")
 
 game=True
 
